@@ -3,6 +3,7 @@
 **Análise de Crédito Bancário: Aplicação de Algoritmos de Machine Learnig**
 
 **Objectivo**
+
 Desenvolver modelo de análise de crédito bancário através da aplicação de algoritmos de Machine Learning, nomeadamente: 
 - Regressão Logística;
 - Naive Bayes;
