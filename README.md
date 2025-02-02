@@ -1,7 +1,7 @@
 # Risco-de-Credito-Bancario
 
 
-Este repositório contém o código, em python,  da monografia apresentada ao Instituto de Ciências Matemáticas e Computacionais da 
+Este repositório contém o código, em python,  da monografia apresentada ao Instituto de Ciências Matemáticas e de Computação da 
 Universidade de São Paulo (USP), como requisito parcial para obtenção do título de Especialista (MBA) em Ciência de Dados.
 
 
