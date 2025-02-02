@@ -7,7 +7,7 @@ Universidade de São Paulo (USP), como requisito parcial para obtenção do tít
 
 TEMA: **Análise de Crédito Bancário: Aplicação de Algoritmos de Machine Learning**
 
-OBJECTIVOS
+OBJECTIVO
 
 Desenvolver modelo de análise de risco de crédito bancário através da aplicação de algoritmos de Machine Learning, nomeadamente: 
 - Regressão Logística;
