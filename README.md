@@ -5,7 +5,7 @@ Este repositório contém o código, em python,  da monografia apresentada ao In
 Universidade de São Paulo (USP), como requisito parcial para obtenção do título de Especialista (MBA) em Ciência de Dados.
 
 
-TEMA: **Análise de Crédito Bancário: Aplicação de Algoritmos de Machine Learning**
+TEMA: **Análise de Risco de Crédito Bancário: Aplicação de Algoritmos de Machine Learning**
 
 OBJECTIVO
 
