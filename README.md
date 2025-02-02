@@ -8,7 +8,7 @@ Desenvolver modelo de análise de crédito bancário através da aplicação de 
 - Regressão Logística;
 - Naive Bayes;
 - Random Forest;
-- Redes Neurais Articiais;
+- Redes Neurais Artificiais;
 - Support Vector Machines (SVM); e
 - Extreme Gradient Boosting (XGBoost)
 
