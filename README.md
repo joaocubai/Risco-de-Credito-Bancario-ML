@@ -23,5 +23,5 @@ METODOLOGIA
 - Foram conduzidos testes estatísticos para comparação do desempenho entre os modelos;
 - A AUC-ROC foi a métrica escolhida para efeito de comparação entre modelos.
 - Os testes realizados são: Shapiro-Wilk (normalidade), Levene (homocedasticidade), Friedman e, como post-hoc, o teste de Nemeny.
-- Realizou-se a análise SHAP, que fornece uma visão de como os modelos tomam decisão sobre o risco de inadimplência.
+- Realizou-se a análise SHAP, que fornece uma visão de como o modelo seleccionado toma decisão sobre o risco de inadimplência.
 
