@@ -19,9 +19,12 @@ Desenvolver modelo de análise de risco de crédito bancário através da aplica
 
 METODOLOGIA
 - Foi utilizada a  técnica de validação cruzada estratificada (visto que o _dataset_ era desbalanceado), com 10 dobras (folds) em 30 repetições;
-- Métricas de avaliação de desemenho dos modelos adoptadas: Acurácia, Precisão, Recall, F1-Score, AUC-ROC e teste KS (Kolmogorov-Smirnov);
+- As métricas de avaliação de desemenho dos modelos adoptadas são: Acurácia, Precisão, Recall, F1-Score, AUC-ROC e teste KS (Kolmogorov-Smirnov);
 - Foram conduzidos testes estatísticos para comparação do desempenho entre os modelos;
-- A AUC-ROC foi a métrica escolhida para estabelecer a comparação entre os modelos.
-- Os testes estatísticos realizados são: Shapiro-Wilk (normalidade), Levene (homocedasticidade), Friedman e, como _post-hoc_, o teste de Nemenyi.
-- Foi feita a análise SHAP (SHapley Additive exPlanations) , que fornece uma visão sobre a forma como o modelo seleccionado toma decisão sobre o risco de inadimplência.
+- A AUC-ROC foi a métrica escolhida para estabelecer a comparação entre os modelos;
+- Foram feitos testes estatísticos pévios para verificar a normalidade (teste de Shapiro-Wilk) e homocedasticidade (teste de Levene);
+- Tendo-se verificado a violação dos pressupostos da normalidade e da homocedasticidade, foi aplicado o bootstrap, um método não paramétrico;
+- A partir das reamostras obtidas pelo método bootstrap, foram construídos intervalos de confiança, com nível de significância de 5%;
+- Os intervalos de confiança serviram como base para comparação emparelhada do desemepnho entre modelos;
+- Finalmente, foi realizada a análise SHAP (SHapley Additive exPlanations), que fornece uma visão sobre a forma como o modelo seleccionado toma decisão sobre o risco de crédito, garantido transparência no processo decisório.
 
